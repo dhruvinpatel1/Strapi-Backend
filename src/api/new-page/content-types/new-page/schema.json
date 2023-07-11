@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_pages",
+  "info": {
+    "singularName": "new-page",
+    "pluralName": "new-pages",
+    "displayName": "new_page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sds": {
+      "type": "string"
+    }
+  }
+}

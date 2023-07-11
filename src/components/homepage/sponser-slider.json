@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_homepage_sponser_sliders",
+  "info": {
+    "displayName": "Sponser_slider"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.slider"
+    }
+  }
+}

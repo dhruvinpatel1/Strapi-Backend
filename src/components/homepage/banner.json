@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_homepage_banners",
+  "info": {
+    "displayName": "Banner"
+  },
+  "options": {},
+  "attributes": {
+    "Bannerimg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bannerinfo": {
+      "displayName": "Bannerinfo",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.bannerinfo"
+    }
+  }
+}

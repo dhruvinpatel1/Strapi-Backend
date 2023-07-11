@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dhruvinpatels",
+  "info": {
+    "singularName": "dhruvinpatel",
+    "pluralName": "dhruvinpatels",
+    "displayName": "dhruvinpatel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sdsd": {
+      "type": "string"
+    }
+  }
+}

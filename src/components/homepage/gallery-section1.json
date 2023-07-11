@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_homepage_gallery_section1s",
+  "info": {
+    "displayName": "gallery_section1"
+  },
+  "options": {},
+  "attributes": {
+    "GalleryImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.galleryimg"
+    }
+  }
+}

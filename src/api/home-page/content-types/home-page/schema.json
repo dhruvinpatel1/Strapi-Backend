@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home-Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Homepage_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.banner"
+    },
+    "Homepage_content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.homeinfo"
+    },
+    "Gallery_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.gallery-section"
+    },
+    "Gallery_section1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.gallery-section1"
+    },
+    "Sponser_content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.sponser-slider"
+    },
+    "Video_content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.video"
+    },
+    "News_Slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.news-slider"
+    }
+  }
+}

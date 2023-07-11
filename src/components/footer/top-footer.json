@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_footer_top_footers",
+  "info": {
+    "displayName": "TopFooter"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}
