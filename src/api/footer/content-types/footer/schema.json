@@ -12,12 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Top_Footer": {
+    "top_Footer": {
       "type": "component",
       "repeatable": false,
       "component": "footer.top-footer"
     },
-    "Middle_Footer": {
+    "middle_Footer": {
       "type": "component",
       "repeatable": false,
       "component": "footer.bottomfooter"
@@ -25,7 +25,7 @@
     "Copyright_Title": {
       "type": "string"
     },
-    "Bottom_Footer": {
+    "bottom_Footer": {
       "type": "component",
       "repeatable": true,
       "component": "content.content"

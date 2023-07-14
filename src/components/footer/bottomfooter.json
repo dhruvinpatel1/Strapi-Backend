@@ -6,22 +6,23 @@
   },
   "options": {},
   "attributes": {
-    "Left": {
+    "left": {
       "type": "component",
       "repeatable": true,
       "component": "content.content"
     },
-    "Middle": {
+    "middle": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "Right": {
+    "right": {
       "type": "component",
       "repeatable": true,
       "component": "content.content"
