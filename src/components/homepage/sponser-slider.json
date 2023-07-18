@@ -1,11 +1,12 @@
 {
   "collectionName": "components_homepage_sponser_sliders",
   "info": {
-    "displayName": "Sponser_slider"
+    "displayName": "Sponser_slider",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
     "slider": {

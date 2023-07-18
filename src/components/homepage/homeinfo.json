@@ -18,8 +18,11 @@
     "right_content": {
       "type": "richtext"
     },
-    "button_link": {
-      "type": "string"
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
     }
   }
 }

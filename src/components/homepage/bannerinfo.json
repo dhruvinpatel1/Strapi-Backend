@@ -1,11 +1,12 @@
 {
   "collectionName": "components_homepage_bannerinfos",
   "info": {
-    "displayName": "Bannerinfo"
+    "displayName": "Bannerinfo",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     }
   }

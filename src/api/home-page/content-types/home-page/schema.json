@@ -12,37 +12,37 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Homepage_banner": {
+    "homepage_banner": {
       "type": "component",
       "repeatable": false,
       "component": "homepage.banner"
     },
-    "Homepage_content": {
+    "homepage_content": {
       "type": "component",
       "repeatable": false,
       "component": "homepage.homeinfo"
     },
-    "Gallery_section": {
+    "gallery_section": {
       "type": "component",
       "repeatable": false,
       "component": "homepage.gallery-section"
     },
-    "Gallery_section1": {
+    "gallery_section1": {
       "type": "component",
       "repeatable": false,
       "component": "homepage.gallery-section1"
     },
-    "Sponser_content": {
+    "ambassadors_content": {
       "type": "component",
       "repeatable": false,
       "component": "homepage.sponser-slider"
     },
-    "Video_content": {
+    "video_content": {
       "type": "component",
       "repeatable": false,
       "component": "homepage.video"
     },
-    "News_Slider": {
+    "news_Slider": {
       "type": "component",
       "repeatable": false,
       "component": "homepage.news-slider"

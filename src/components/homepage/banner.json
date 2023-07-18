@@ -1,21 +1,23 @@
 {
   "collectionName": "components_homepage_banners",
   "info": {
-    "displayName": "Banner"
+    "displayName": "Banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Bannerimg": {
+    "bannerimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "Bannerinfo": {
+    "bannerinfo": {
       "displayName": "Bannerinfo",
       "type": "component",
       "repeatable": true,
