@@ -18,11 +18,11 @@
     "right_content": {
       "type": "richtext"
     },
-    "button": {
-      "displayName": "button",
-      "type": "component",
-      "repeatable": false,
-      "component": "button.button"
+    "button_label": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
     }
   }
 }
