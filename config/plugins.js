@@ -37,4 +37,27 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  "rest-cache": {
+    config: {
+      provider: {
+        name: "memory",
+        options: {
+          max: 32767,
+          maxAge: 3,
+          updateAgeOnGet: false,
+        },
+      },
+      strategy: {
+        debug: true,
+        maxAge: 3600,
+        updateAgeOnGet: false,
+        contentTypes: [
+          // list of Content-Types UID to cache
+          { contentType: "api::home-page.home-page", maxAge: 60*60*100 },
+          { contentType: "api::footer.footer", maxAge: 60*60*100 },
+          { contentType: "api::page.page", maxAge: 60*60*100 },
+        ],
+      },
+    },
+  },
 });

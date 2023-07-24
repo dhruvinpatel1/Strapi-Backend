@@ -17,7 +17,8 @@
     "mysql": "^2.18.1",
     "mysql2": "^3.4.5",
     "strapi-plugin-menus": "^1.4.3",
-    "strapi-plugin-populate-deep": "^2.0.0"
+    "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-plugin-rest-cache": "^4.2.7"
   },
   "author": {
     "name": "A Strapi developer"
