@@ -33,5 +33,8 @@ module.exports = ({ env }) => {
       ...connections[client],
       acquireConnectionTimeout: env.int('DATABASE_CONNECTION_TIMEOUT', 60000),
     },
+    settings: {
+      forceMigration: false,
+    },
   };
 };
