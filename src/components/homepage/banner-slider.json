@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_homepage_banners",
+  "collectionName": "components_homepage_banner_sliders",
   "info": {
-    "displayName": "Banner",
+    "displayName": "BannerSlider",
     "description": ""
   },
   "options": {},
@@ -18,7 +18,6 @@
       ]
     },
     "bannerinfo": {
-      "displayName": "Bannerinfo",
       "type": "component",
       "repeatable": true,
       "component": "homepage.bannerinfo"
