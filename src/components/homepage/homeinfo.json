@@ -18,10 +18,10 @@
     "right_content": {
       "type": "richtext"
     },
-    "button_label": {
+    "buttonLabel": {
       "type": "string"
     },
-    "button_link": {
+    "buttonLink": {
       "type": "string"
     }
   }

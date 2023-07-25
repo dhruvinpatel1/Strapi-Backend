@@ -9,7 +9,7 @@
     "Title": {
       "type": "string"
     },
-    "Sponser": {
+    "SponserSlider": {
       "displayName": "Sponser",
       "type": "component",
       "repeatable": true,
