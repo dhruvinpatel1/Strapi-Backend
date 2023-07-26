@@ -6,12 +6,6 @@ module.exports = ({ env }) => {
   const connections = {
     mysql2: {
       connection: {
-        filename: path.join(
-          __dirname,
-          '..',
-          '..',
-          env('DATABASE_FILENAME', '.tmp/data.db')
-        ),
         host: env('DATABASE_HOST'),
         port: env.int('DATABASE_PORT'),
         database: env('DATABASE_NAME'),
